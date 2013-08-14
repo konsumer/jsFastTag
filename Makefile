@@ -9,4 +9,4 @@ clean:
 test:
 	npm test
 
-.PHONY: all test clean server
+.PHONY: all test clean
