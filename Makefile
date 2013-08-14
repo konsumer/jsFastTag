@@ -9,7 +9,4 @@ clean:
 test:
 	npm test
 
-server:
-	grunt server
-
 .PHONY: all test clean server
