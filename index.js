@@ -13,6 +13,10 @@ var getLexicon = function(word){
 	return fastTag.lexicon[Object.keys(fastTag.lexicon).indexOf(word.toLowerCase())];
 };
 
+var isNumber = function(n) {
+	return !isNaN(parseFloat(n)) && isFinite(n);
+};
+
 /**
  * Check if a word is in lexicon
  * @param string word
@@ -55,11 +59,10 @@ fastTag.tag = function(words){
 
 		// rule 2: convert a noun to a number (CD) if "." appears in the word
 		if (r[0] === 'N'){
-			if (words[i].indexOf('.') !== -1) {
+			if (words[i].indexOf('.') !== -1 && isNumber(words[i])) {
 				ret[i] = 'CD';
 			}
 			// did I do enough here?
-			// not double-checking if it's a float. Is this needed in JS?
 		}
 
 		// rule 3: convert a noun to a past participle if words[i] ends with "ed"

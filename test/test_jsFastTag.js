@@ -24,6 +24,6 @@ describe('jsFastTag', function() {
 		var tags = jsFastTag.tag(('The quick brown fox jumps over the lazy dog.').split(' '));
 		
 		// I don't think this is right...
-		JSON.stringify(tags).should.equal(JSON.stringify([ 'NN', 'NN', 'NN', 'NN', 'NNS', 'NN', 'NN', 'NN', 'CD' ]));
+		JSON.stringify(tags).should.equal(JSON.stringify([ 'NN', 'NN', 'NN', 'NN', 'NNS', 'NN', 'NN', 'NN', 'NN' ]));
 	});
 });
