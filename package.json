@@ -1,0 +1,24 @@
+{
+  "name": "jsFastTag",
+  "version": "0.0.0",
+  "description": "Fast Part of Speech Tagger: process language, and analyze",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:konsumer/jsFastTag.git"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0",
+    "grunt-browserify": "~1.2.2"
+  }
+}
