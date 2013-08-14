@@ -59,7 +59,7 @@ fastTag.tag = function(words){
 
 		// rule 2: convert a noun to a number (CD) if "." appears in the word
 		if (r[0] === 'N'){
-			if (words[i].indexOf('.') !== -1 && isNumber(words[i])) {
+			if (isNumber(words[i])) {
 				ret[i] = 'CD';
 			}
 			// did I do enough here?
