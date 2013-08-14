@@ -23,7 +23,7 @@ fastTag.wordInLexicon = function(word){
 };
 
 /**
- * Get a list of tags for a list of words
+ * Get a list of tags for a list of words in a sentence
  * @param  array words  list of strings to tag with parts of speech
  * @return array        list of strings for part of speech tokens
  */
