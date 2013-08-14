@@ -2,6 +2,13 @@
 
 Ever need to quickly parse English into parts of speech?  This library will allow you do that in node & browser.
 
+## Browser
+
+Install dev tools with `npm install` and install grunt with `npm install -g grunt`.
+
+Build for browser with `grunt`.
+
+
 ## TAG DEFINITIONS:
 
 ```
