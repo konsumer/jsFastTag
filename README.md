@@ -6,7 +6,7 @@ Ever need to quickly parse English into parts of speech?  This library will allo
 
 Install dev tools with `npm install` and install grunt with `npm install -g grunt`.
 
-Build for browser with `grunt`.
+Build for browser with `grunt`, and you will get a minified & regular copy in `dist/`.
 
 
 ## TAG DEFINITIONS:
