@@ -1,7 +1,7 @@
 'use strict';
 
 var fastTag = {
-	'lexicon': require('./lexicon/regular.js'),
+	'lexicon': require(__dirname + '/lexicon/regular.js'),
 };
 
 /**
