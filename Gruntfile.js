@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 	};
 
 	/**
-	 * Generate JSON files for easy import from text files in lexicon/
+	 * Generate modules for easy import from text files in lexicon/
 	 */
 	grunt.registerTask('lexicon', 'Turn lexicon files into module', function() {
 		grunt.file.write('lexicon/regular.js','module.exports=' + JSON.stringify(parseLexicon(__dirname + '/lexicon/regular.txt')) +  ';');
